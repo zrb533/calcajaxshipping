@@ -27,7 +27,6 @@ for sheetnumber in range(1,192):
     max_row = sheet.max_row
     max_column = sheet.max_column
 
-    # 按列取数据，先按列从上到下，再按行从左到右
     for mc in range(1, max_column + 1):
         for mr in range(3, max_row + 1):
             cell = str(sheet.cell(mr,mc).value)
