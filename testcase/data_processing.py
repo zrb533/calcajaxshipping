@@ -5,8 +5,8 @@ from openpyxl.styles import Font,colors
 import re
 from openpyxl.styles import numbers
 
-source_data_path = 'D:\\Github\\calcajaxshipping\\source_data\\dhl_express_remote_areas_201809041551451.xlsx'
-target_data_path = 'D:\\Github\\calcajaxshipping\\target_data\\target_data.xlsx'
+source_data_path = '/Users/zhanglinquan/PycharmProjects/calcajaxshipping/source_data/dhl_express_remote_areas_201809041551451.xlsx'
+target_data_path = '/Users/zhanglinquan/PycharmProjects/calcajaxshipping/target_data/target_data.xlsx'
 
 eng_re = re.compile(r'^[A-Za-z,\s-]+$', re.S)
 
